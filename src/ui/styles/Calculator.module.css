@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Outfit';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.container > div {
+    border: 2px solid #d5dbdb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.containerCalc,
+.containerVisor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerVisor input {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    padding: .6rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    border: 0;
+    outline: none;
+}
+
+.containerVisor input:last-child {
+    margin: 0 0 1rem 0;
+}
+
+.containerCalc div {
+    display: flex;
+    width: 100%;
+}
+
+.containerCalc div a {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    background-color: #85c1e9;
+    border-radius: 10px;
+    color: #FFF;
+    display: flex;
+    border: 1px solid #FFF;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.containerCalc div a:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+a.importBtn {
+    background-color: #3498db;
+}
